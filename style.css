@@ -97,3 +97,25 @@ nav a.active {
 .contact-page {
   flex-direction: column;
 }
+
+/* Global link styling inside main content */
+.main-content a {
+  color: #000;
+  text-decoration: none;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+}
+
+/* Contact list (no bullets, clean look) */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.contact-list li {
+  margin-bottom: 0.5rem;
+}
+
