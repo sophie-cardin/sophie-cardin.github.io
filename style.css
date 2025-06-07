@@ -80,6 +80,20 @@ nav a.active {
   margin-bottom: 0.5rem;
 }
 
+.contact-list a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+
+}
+
+.contact-list li {
+  margin-bottom: 0.5rem;
+}
+
 .contact-page {
   flex-direction: column;
 }
